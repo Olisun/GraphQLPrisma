@@ -1,0 +1,24 @@
+{
+  "name": "graphqlprisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olisun/GraphQLPrisma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olisun/GraphQLPrisma/issues"
+  },
+  "homepage": "https://github.com/Olisun/GraphQLPrisma#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
+  }
+}
