@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/oliver-sun-5ea12a/note-app/dev
+datamodel: datamodel.prisma
+
+generate:  
+  - generator: graphql-schema    
+    output: ./src/generated/prisma.graphql
