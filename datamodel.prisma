@@ -2,4 +2,12 @@ type Note {
   id: ID! @id
   title: String!
   content: String!
+  subject: String!
+  author: Author!
+}
+
+type Author {
+  id: ID! @id
+  name: String!
+  notes: [Note]!
 }
